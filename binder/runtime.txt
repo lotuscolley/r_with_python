@@ -1,0 +1,4 @@
+jupyter labextension install @jupyterlab/toc
+
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace python_example_for_Jupyter.ipynb
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace R_example_for_Jupyter.ipynb
